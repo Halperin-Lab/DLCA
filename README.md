@@ -14,13 +14,13 @@ While these can be different we have found it doesnt lead to anything interestin
 - N is the total number of particles.
     type = positive integer
     
-- mu  is the mean particle size. 
+- mu: mean particle size. mu is the first moment of the distribution of radii, not the standard mu (location) parameter for a Log-normal distribution.
     type = double-precision float
     
-- sigma: variance of the distribution of particle sizes.
+- sigma: standard deviation of the distribution of particle radii. Again, this is the actual square root of second moment of Log-normal distribution, not the sigma (scale) parameter for a Log-normal distribution.
     type = double-precision float
       
-- alpha: diffusion powerlaw. Larger 
+- alpha: diffusion powerlaw. Diffusivity ~ m^(-alpha) where m is the size of the cluster and alpha is the diffusion powerlaw 
     type = double-precision float
     
 - paramLogNormal: choice between using a LogNormal distribution (1) or Normal distribution (0) for the particle radii
