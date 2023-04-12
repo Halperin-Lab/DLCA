@@ -5,9 +5,11 @@ Compiled DLCA program for Windows.
 Running the program will ask you for initial parameters. Hit enter after each prompt to set parameter
 
 - L.x, L.y, and L.z: final dimensions of the box size. 
+    
     type = double-precision float
 
 - Linit.x, Linit.y, and Linit.z: initial dimension of the box size.
+    
     type = double-precision float
 While these can be different we have found it doesnt lead to anything interesting so all final results have kept L.x = LInit.x, L.y = LInit.y, and L.z = LInit.z.
 
