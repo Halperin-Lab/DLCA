@@ -26,7 +26,7 @@ While these can be different we have found it doesnt lead to anything interestin
 - paramLogNormal: choice between using a LogNormal distribution (1) or Normal distribution (0) for the particle radii
     type = bool 
     
-- rConstants.x, rConstants.y, rConstants.z: step size in each direction
+- rConstants.x, rConstants.y, rConstants.z: step size in each direction. For anisotropic aerogel rConstants.z =/= rConstants.x = rConstants.y
     type = double-precision float
     
 - cConstants.x, cConstants.y, cConstants.z: offset for step direction. Almost always set to 0 so that the particle steps from previous position.
