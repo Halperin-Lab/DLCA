@@ -1,6 +1,6 @@
 # DLCA
 
-Compiled DLCA program
+Compiled DLCA program for Windows.
 
 Running the program will ask you for initial parameters. Hit enter after each prompt to set parameter
 
