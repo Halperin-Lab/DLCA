@@ -32,6 +32,6 @@ While these can be different we have found it doesnt lead to anything interestin
 - cConstants.x, cConstants.y, cConstants.z: offset for step direction. Almost always set to 0 so that the particle steps from previous position.
     type = double-precision float
     
-File location: File location and name.
+- File location: File location and name.
 
 
