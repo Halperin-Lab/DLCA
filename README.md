@@ -45,4 +45,4 @@ Running the program will ask you for initial parameters. Hit enter after each pr
 
 Once all parameters are initialize, the program will generate an initial sample of randomly positioned spheres in the initial box. Simulation begins when the sample is fully generated. Program will output the current number of clusters. The program will run until the number of clusters = 1. 
 
-Final aerogel structure will be output into a list (csv format) with the 3-D coordinate and radii of each particle. File will include a header with simulation parameters used. 
+Final aerogel structure will be output into a list (csv format) with the 3-D coordinate and radius of each particle. File will include a header with simulation parameters used. 
