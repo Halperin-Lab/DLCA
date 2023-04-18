@@ -1,6 +1,6 @@
 # DLCA
 
-Compiled DLCA program for Windows.
+Compiled DLCA program for Windows. Completely stand-alone program, no dependencies.
 
 Running the program will ask you for initial parameters. Hit enter after each prompt to set parameter
 
