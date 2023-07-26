@@ -24,7 +24,7 @@ Running the program will ask you for initial parameters. Hit enter after each pr
     
     type = double-precision float
       
-- alpha: diffusion powerlaw. Diffusivity ~ m^(-alpha) where m is the size of the cluster and alpha is the diffusion powerlaw 
+- alpha: diffusion powerlaw. Diffusivity ~ m^(-alpha) where m is the size of the cluster and alpha is the diffusion powerlaw. Typically chosen to be around ~0.5-1
     
     type = double-precision float
     
@@ -32,7 +32,7 @@ Running the program will ask you for initial parameters. Hit enter after each pr
     
     type = bool 
     
-- rConstants.x, rConstants.y, rConstants.z: step size in each direction. For anisotropic aerogel rConstants.z =/= rConstants.x = rConstants.y
+- rConstants.x, rConstants.y, rConstants.z: step size in each direction. For anisotropic aerogel rConstants.z =/= rConstants.x = rConstants.y. Best to chose a value of step size that is smaller than radius size to accurately simulate diffusion. Largest step size typically chosen to be ~1/4 of r0.
    
    type = double-precision float
     
