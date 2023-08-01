@@ -36,7 +36,7 @@ Running the program will ask you for initial parameters. Hit enter after each pr
    
    type = double-precision float
     
-- cConstants.x, cConstants.y, cConstants.z: offset for step direction. Almost always set to 0 so that the particle steps from previous position.
+- cConstants.x, cConstants.y, cConstants.z: offset for step direction. Always set to 0 so that the particle steps from previous position. Can be made non-zero but that has not been explored. 
     
     type = double-precision float
     
